@@ -71,10 +71,6 @@ background-color: rgb(39, 39, 39);
   animation-delay: 1.0s;
 }
 
-
-
-
-
 .has-animation.animation-ltr.animate-in:before {
   animation: revealLTR 1.3s ease;
 }
@@ -128,45 +124,41 @@ background-color: rgb(39, 39, 39);
   }
 }
 </style>
-
-
-
-</style>
-
+</head>
+<body>
 
 
 <div class="has-animation animation-rtl" data-delay="4050">
-  <h1 style="justify-content: center; text-align: center; " >
+<h1 style="justify-content: center; text-align: center; " >
 <div class="has-animation animation-ltr" data-delay="3050">
 <h1 style="justify-content: center; text-align: center; color: aliceblue;  " > this is sample of cover animation <br> 這是遮蓋式動態樣本頁面 </h1>
 <div class="has-animation animation-ltr" data-delay="100">
-  <div class="has-animation animation-rtl" data-delay="100">
+<div class="has-animation animation-rtl" data-delay="100">
 
-    <p style="justify-content: center; text-align: center; color: blueviolet; " >  Content print("hello world from css !") ! <br>
-      welcome to css  sample animation ! </p>
-      <div class="has-animation animation-rtl" data-delay="2200">
-        <p style="justify-content: center; text-align: center; color: rgb(60, 255, 0); " >  Content print("hello world from css !") ! <br>
-          welcome to css  sample animation ! </p>
-        <div class="has-animation animation-ltr" data-delay="3320">
-          <h1 style="justify-content: center; text-align: center; " > 
-            <p style="justify-content: center; text-align: center; color: rgb(143, 148, 0); " >  Content print("hello world from css !") ! <br>
-              welcome to css  sample animation ! </p>
-          <div class="has-animation animation-rtl" data-delay="500">  <div class="has-animation animation-rtl" data-delay="800"></div>
-          <p style="justify-content: center; text-align: center; color: rgb(8, 0, 255); " >  Content print("hello world from css !") ! <br>
-            welcome to css  sample animation ! </p>
-            <div class="has-animation animation-ltr" data-delay="1500">
-              <h1 style="justify-content: center; text-align: center; " > 
-                <p style="justify-content: center; text-align: center; color: rgb(255, 0, 0); " >  Content print("hello world from css !") ! <br>
-                  welcome to css  sample animation ! </p>
-              <div class="has-animation animation-rtl" data-delay="5100">
+<p style="justify-content: center; text-align: center; color: blueviolet; " >  Content print("hello world from css !") ! <br>
+welcome to css  sample animation ! </p>
+<div class="has-animation animation-rtl" data-delay="2200">
+<p style="justify-content: center; text-align: center; color: rgb(60, 255, 0); " >  Content print("hello world from css !") ! <br>
+welcome to css  sample animation ! </p>
+<div class="has-animation animation-ltr" data-delay="3320">
+<h1 style="justify-content: center; text-align: center; " > 
+<p style="justify-content: center; text-align: center; color: rgb(143, 148, 0); " >  Content print("hello world from css !") ! <br>
+welcome to css  sample animation ! </p>
+<div class="has-animation animation-rtl" data-delay="500">  <div class="has-animation animation-rtl" data-delay="800"></div>
+<p style="justify-content: center; text-align: center; color: rgb(8, 0, 255); " >  Content print("hello world from css !") ! <br>
+welcome to css  sample animation ! 
+</p>
+<div class="has-animation animation-ltr" data-delay="1500">
+<h1 style="justify-content: center; text-align: center; " > 
+<p style="justify-content: center; text-align: center; color: rgb(255, 0, 0); " >  Content print("hello world from css !") ! <br>
+    welcome to css  sample animation ! </p>
+<div class="has-animation animation-rtl" data-delay="5100">
 
-
-
-    </p>
-    <div class="has-animation animation-ltr" data-delay="100">
-      <div class="has-animation animation-rtl" data-delay="100">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-    <script id="rendered-js" >
+</p>
+<div class="has-animation animation-ltr" data-delay="100">
+<div class="has-animation animation-rtl" data-delay="100">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script id="rendered-js" >
 $(document).ready(function () {
 $('.has-animation').each(function (index) {
   $(this).delay($(this).data('delay')).queue(function () {
@@ -174,6 +166,7 @@ $('.has-animation').each(function (index) {
   });
 });
 });
+
 //# sourceURL=pen.js
   </script>
 
